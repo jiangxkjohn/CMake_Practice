@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.5)
+project(hello)
+add_subdirectory(src bin)
+message(staus "this is binary dir" ${hello_BINARY_DIR})
+message(staus "this is source dir" ${hello_SOURCE_DIR})

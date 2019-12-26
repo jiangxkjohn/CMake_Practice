@@ -1,0 +1,9 @@
+/home/ros/cmake_learning/test4/build/CMakeFiles/edit_cache.dir
+/home/ros/cmake_learning/test4/build/CMakeFiles/rebuild_cache.dir
+/home/ros/cmake_learning/test4/build/lib/CMakeFiles/edit_cache.dir
+/home/ros/cmake_learning/test4/build/lib/CMakeFiles/rebuild_cache.dir
+/home/ros/cmake_learning/test4/build/lib/CMakeFiles/hello_static.dir
+/home/ros/cmake_learning/test4/build/lib/CMakeFiles/hello.dir
+/home/ros/cmake_learning/test4/build/src/CMakeFiles/rebuild_cache.dir
+/home/ros/cmake_learning/test4/build/src/CMakeFiles/edit_cache.dir
+/home/ros/cmake_learning/test4/build/src/CMakeFiles/main.dir
