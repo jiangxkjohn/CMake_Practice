@@ -1,4 +1,5 @@
+mkdir build
 cd ./build
-rm ./* -r
+rm ./* -rf
 cmake ..
 make

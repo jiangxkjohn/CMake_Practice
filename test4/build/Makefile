@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/cmake_learning/test4
+CMAKE_SOURCE_DIR = /home/ros/cpp_project/CMake_Practice/test4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/cmake_learning/test4/build
+CMAKE_BINARY_DIR = /home/ros/cpp_project/CMake_Practice/test4/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ros/cmake_learning/test4/build/CMakeFiles /home/ros/cmake_learning/test4/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ros/cpp_project/CMake_Practice/test4/build/CMakeFiles /home/ros/cpp_project/CMake_Practice/test4/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ros/cmake_learning/test4/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ros/cpp_project/CMake_Practice/test4/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -109,19 +109,6 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
-
-#=============================================================================
-# Target rules for targets named hello_static
-
-# Build rule for target.
-hello_static: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 hello_static
-.PHONY : hello_static
-
-# fast build rule for target.
-hello_static/fast:
-	$(MAKE) -f lib/CMakeFiles/hello_static.dir/build.make lib/CMakeFiles/hello_static.dir/build
-.PHONY : hello_static/fast
 
 #=============================================================================
 # Target rules for targets named hello
@@ -157,7 +144,6 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... hello_static"
 	@echo "... hello"
 	@echo "... main"
 .PHONY : help

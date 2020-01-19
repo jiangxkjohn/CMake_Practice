@@ -1,4 +1,5 @@
-#include <hello.h>
+#include "../lib/hello.h"
+
 int main()
 {
     HelloFunc();

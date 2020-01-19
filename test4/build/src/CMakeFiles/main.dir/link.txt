@@ -1,1 +1,1 @@
-/usr/bin/c++      CMakeFiles/main.dir/main.cpp.o  -o main -lhello 
+/usr/bin/c++      CMakeFiles/main.dir/main.cpp.o  -o main  -L/home/ros/cpp_project/CMake_Practice/test4/build/lib -lhello -Wl,-rpath,/home/ros/cpp_project/CMake_Practice/test4/build/lib 

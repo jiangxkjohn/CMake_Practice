@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/ros/cmake_learning/test4/lib 
+CXX_INCLUDES = 
 

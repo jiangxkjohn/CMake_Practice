@@ -1,4 +1,4 @@
-# Install script for directory: /home/ros/cmake_learning/test4/src
+# Install script for directory: /home/ros/cpp_project/CMake_Practice/test4/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

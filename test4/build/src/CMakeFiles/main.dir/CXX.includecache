@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-../lib/hello.h
+/home/ros/cpp_project/CMake_Practice/test4/lib/hello.h
 stdio.h
 -
 
-/home/ros/cmake_learning/test4/src/main.cpp
-hello.h
--
+/home/ros/cpp_project/CMake_Practice/test4/src/main.cpp
+../lib/hello.h
+/home/ros/cpp_project/CMake_Practice/test4/lib/hello.h
 
